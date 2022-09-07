@@ -1,0 +1,136 @@
+:root {
+
+
+}
+
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+  display: flex;
+    justify-content: center;
+    align-content: center;
+   box-shadow:  0px 24px 32px -8px #00000050;
+
+}
+
+
+.main {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+.input-texto  {
+  display: flex;
+
+  justify-content: center;
+ text-align: center;
+ background-color:#f5f5f5;
+  width: 100%;
+  padding: 100px;
+  font-weight: bold;
+  resize: none;
+ font-size: 1.3rem;
+
+
+}
+.botones {
+
+    display: flex;
+    justify-content: center;
+    gap:8px;
+    padding: 2px;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.encriptar {
+                      padding: 30px;
+  									   border: none;
+  									   width: 320px;
+  									   max-width: 328px;
+  									  cursor: pointer;
+                      color:white;
+                      background-color: #d8bfd8;
+                      border-radius: 20px;
+                       border:none;
+}
+
+.desencriptar {
+                   padding: 30px;
+ 									    border: none;
+ 									    width: 320px;
+ 									    max-width: 328px;
+ 									    cursor: pointer;
+                      color:white;
+                      background-color: #d8bfd8;
+                      border-radius: 20px;
+                      border: none;
+}
+.resultado-encriptador {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: white;
+ padding: 40px;
+ text-align: center;
+
+}
+
+.mensaje {
+  width: 300%;
+  height: 500px;
+    background-image: url("imagenes/muñeco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size:1.5em;
+    font-weight: bold;
+   font-style: italic;
+  justify-content: center;
+  resize: none;
+   border-radius: 60px;
+
+}
+
+.copiar {
+            position: relative;
+             justify-content: center;
+             padding: 30px;
+						border: none;
+						width: 100%;
+						max-width: 328px;
+				    cursor: pointer;
+            margin-top: 10px;
+            border-radius: 20px;
+            transition: 2s;
+
+
+}
+
+.copiar:hover {
+    background: lightgreen;
+}
+
+#div-desaparece {
+   padding: 10px 0;
+
+}
+.informacion {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+
+}
